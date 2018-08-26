@@ -1,25 +1,24 @@
 {
-  "name": "social-network",
+  "name": "lim-2018-01-foodmap",
   "version": "1.0.0",
-  "main": "src/splash.html",
-  "license": "MIT",
-  "scripts": {
-    "htmlhint": "htmlhint src/*.html test/*.html",
-    "eslint": "eslint --ext .js src/ test/",
-    "pretest": "npm run eslint && npm run htmlhint",
-    "test-browser": "opener ./test/index.html",
-    "test-node": "nyc mocha ./test/headless.js && nyc report --reporter=html",
-    "test": "npm run test-node && npm run test-browser"
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
   },
-  "dependencies": {
-    "chai": "^4.1.2",
-    "eslint": "^4.19.1",
-    "firebase": "^5.3.0",
-    "g": "^2.0.1",
-    "htmlhint": "^0.9.13",
-    "mocha": "^5.2.0",
-    "nyc": "^11.9.0",
-    "opener": "^1.4.3",
-    "tools": "0.0.0"
-  }
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ivonnehg/lim-2018-01-foodmap.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ivonnehg/lim-2018-01-foodmap/issues"
+  },
+  "homepage": "https://github.com/Ivonnehg/lim-2018-01-foodmap#readme"
 }

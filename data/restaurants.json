@@ -1,4 +1,4 @@
-[
+{"restaurants":[
     {
         "name": "Carniceria",
         "type": "parrillas",
@@ -104,7 +104,7 @@
         "district":"Ate",
         "schedule":"Martes a domingo de 10am - 9pm",
         "description":"Dedicados a servir exquisitos pollos a la brasa y suculentas carnes parrillas.",
-        "photo":"../images/pollerias/juniors.jpg"
+        "photo":"pollerias/juniors.jpg"
        
     },
     {
@@ -199,3 +199,5 @@
     }
   
 ]
+
+}

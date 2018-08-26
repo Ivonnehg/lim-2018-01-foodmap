@@ -11,62 +11,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
-<header class="grey darken-3">
-    <div class="container">
-        <div class="row">
-            <div class="col s12 m12 l12">
-                <h2 class="center-align ">FOOD-MAP</h2>
-                <hr>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col s12 m12 l12 , blue-grey lighten-5" >
-                <div class="carousel">
-                    <a class="carousel-item"><img src="images/1.jpg" alt=""></a>
-                    <a class="carousel-item"><img src="images/2.jpg" alt=""></a>
-                    <a class="carousel-item"><img src="images/3.jpg" alt=""></a>
-                    <a class="carousel-item"><img src="images/4.jpg" alt=""></a>
-                </div>              
-            </div>
-        </div>
-        <div class="row">
-            <div class="col s12 m12 l12">
-                <fieldset>
-                    <div class="col s11">
-                        <input placeholder="Filtrar por tipo de comida" type="search" id="searchType">
-                    </div>
-                    <div class="col s1">
-                        <button type="submit">
-                            <i class="material-icons">youtube_searched_for</i>
-                        </button>
-                    </div>
-                </fieldset>              
-            </div>
-        </div>
-        <div class="row">
-                <div class="col s12 m12 l12, blue-grey lighten-5">
+
+<body>
+
+        <script src="https://www.gstatic.com/firebasejs/5.4.1/firebase.js"></script>
+        <script>
+          // Initialize Firebase
+          var config = {
+            apiKey: "AIzaSyAtYR7VFFhlmgYEPyCIniNSD67b7V2qf14",
+            authDomain: "foodmap-a73b6.firebaseapp.com",
+            databaseURL: "https://foodmap-a73b6.firebaseio.com",
+            projectId: "foodmap-a73b6",
+            storageBucket: "foodmap-a73b6.appspot.com",
+            messagingSenderId: "803346706541"
+          };
+          firebase.initializeApp(config);
+        </script>
+
+    <header class="grey darken-3">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m12 l12">
                     <h2 class="center-align ">FOOD-MAP</h2>
                     <hr>
                 </div>
             </div>
-        
-        
-    </div>
-</header>
-<body>
-  
-    </div>
+            <div class="row">
+                <div class="col s12 m12 l12 , blue-grey lighten-5">
+                    <div class="carousel">
+                        <a class="carousel-item">
+                            <img src="images/1.jpg" alt="">
+                        </a>
+                        <a class="carousel-item">
+                            <img src="images/2.jpg" alt="">
+                        </a>
+                        <a class="carousel-item">
+                            <img src="images/3.jpg" alt="">
+                        </a>
+                        <a class="carousel-item">
+                            <img src="images/4.jpg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m12 l12">
+                    <fieldset>
+                        <div class="col s11">
+                            <input placeholder="Filtrar por tipo de comida" type="search" id="search">
+                        </div>
+                        <div class="col s1">
+                            <button type="submit" id="btnSearch">
+                                <i class="material-icons">youtube_searched_for</i>
+                            </button>
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m12 l12, blue-grey lighten-5">
+
+                    <div class="row" id="restaurantes">
+
+                    </div>
+
+
+
+                </div>
+            </div>
+    </header>
+
+
+</body>
 
 
 
 
-    <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
-    <script src="js/jquery.js"></script>
-    <script src="js/materialize.min.js"></script>
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <script src="main.js"></script>
-    <script src="data.js"></script>
-    <script src="splash.js"></script>
+
+<script src="js/jquery.js"></script>
+<script src="js/materialize.min.js"></script>
+<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<script src="main.js"></script>
+<script src="data.js"></script>
+<script src="splash.js"></script>
 </body>
 
 </html>
