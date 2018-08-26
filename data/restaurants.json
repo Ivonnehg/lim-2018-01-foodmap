@@ -1,0 +1,201 @@
+[
+    {
+        "name": "Carniceria",
+        "type": "parrillas",
+        "address":"Av.La Estación 428C",
+        "district":"Lima",
+        "schedule":"De 6am - 8pm todos los días",
+        "description":"Amplio lugar, donde usted podrá disfrutar de los más exquisitos parrillas acompañado con camote+sarsa criolla+cancha o mote + panes +café, saboreando de un delicioso desayuno Huaralino. Combo Personal S/.15.",
+        "photo":"../images/parrillas/carniceria.jpg"
+       
+    },
+    {
+        "name": "Juan Parrilla",
+        "type": "parrillas",
+        "address":"Fundo El Rancho - 657",
+        "district":"Lima",
+        "schedule":"De 10am - 6pm todos los días",
+        "description":"Restaurant Campestre 'JUAN PARRILLA' les da la bienvenida, a disfrutar de su variewdad en carnes.",
+        "photo":"../images/parrillas/juanparrilla.jpg"
+       
+    },
+    {
+        "name": "Maido",
+        "type": "parrillas",
+        "address":"Calle San Martin 3991",
+        "district":"Miraflores",
+        "schedule":"L-S de 12pm - 4pm y 7pm - 11pm y D 12:30 - 5pm",
+        "description":"Aquí el cocinero no es el protagonista, sino los ingredientes de primera calidad que le prometen al artista la creación de una obra única. Se busca que los clientes vivan una genuina aventura Nikkei. Esta maravillosa cocina es el reflejo de la influencia japonesa en la gastronomía peruana.",
+        "photo":"../images/parrillas/labraseria.jpg"
+       
+    },
+    {
+        "name": " Restaurante matilde",
+        "type": "parrillas",
+        "address":"Calle Amador Merino Reyna 339",
+        "district":"San Isidro",
+        "schedule":"L-V de 12pm - 4pm y 7pm - 12am, Sáb 7pm - 12am y Dom 11am - 4pm",
+        "description":"Moderno y elegante, matilde brindamos como propuesta una experiencia gastronómica por la costa, sierra y selva del Perú, que respeta el producto, y a la vez, juega con texturas que no dejan de asombrar a su público.",
+        "photo":"../images/parrillas/matilde.jpg"
+       
+    },
+    {
+        "name": "mi carnes",
+        "address":"Real Plaza, Av. Garcilaso de la Vega 1337",
+        "type": "parrillas",
+        "district":"Cercado de Lima ",
+        "schedule":"L-D de 9am - 11pm",
+        "description":"Bistro se declara como un lugar de homenaje a la Pachamama, la Madre Tierra. Su espacioso y cómodo local permite el disfrute bajo techo y al aire libre, indistintamente. Cuenta con un atractivo mobiliario para facilitar la reunión con amigos, la familia o incluso por cuestione de negocios. Posee servicio de bar que brinda todo tipo de bebidas.",
+        "photo":"../images/parrillas/mi carnes.jpg"
+       
+    },
+    {
+        "name": " Restaurante go",
+        "type": "ensaladas",
+        "address":"982 Avenida Santa Cruz, Chacarilla-Santa Cruz",
+        "district":"Miraflores",
+        "schedule":"Mar-sáb 12pm - 11pm y Dom 12pm - 4pm",
+        "description":"Cocina  clásica con especialidades en ensaladas",
+        "photo":"../images/ensaladas/go.jpg"
+    },
+    {
+        "name": " Restaurante greengrass",
+        "type": "ensaladas",
+        "address":"Velasco Astete 2012",
+        "district":"Santiago de Surco",
+        "schedule":"Lun-sáb 12pm a 11pm ",
+        "description":"Restaurante greengrass podrás disfrutar de los más ricos platos de ensaladas",
+        "photo":"../images/ensaladas/greengrass.jpg"
+    },
+    {
+        "name": "ostra",
+        "type": "ensaladas",
+        "address":"Av. Costa Verde s/n, Playa de las Cascadas",
+        "district":"Barranco",
+        "schedule":"De 6am - 2pm todos los días",
+        "description":"Somos reconocidos por nuestro sabor, frescura y creatividad en los platos. Una propuesta gastronómica que combina la cocina marina tradicional con distintas ensaladas.",
+        "photo":"../images/ensaladas/ostra.jpg"
+       
+    },
+    {
+        "name": "saladbow",
+        "type": "ensaladas",
+        "address":"Av. Miguel Grau 624, Barranco",
+        "district":"Barranco",
+        "schedule":"De 9:00 a.m. a 10:00 p.m. todos los días",
+        "description":"En saladbow podrá disfrutar de las ricas aensaladas y fusión peruana.",
+        "photo":"../images/ensaladas/saladbow.jpg"
+       
+    },
+    {
+        "name": "sanaoria",
+        "type": "ensaladas",
+        "address":"jn. Loreto 615",
+        "district":"Ancon",
+        "schedule":"De 11:00 a.m. a 7:00 p.m. todos los días",
+        "description":"Somos el restaurante de ensaladas artesanales",
+        "photo":"../images/ensaladas/sanaoria.jpg"
+       
+    },
+    {
+        "name": "juniors",
+        "type": "polleria",
+        "address":"Mz.'M' Lt.'1' Condominio el Remanso de Santa Clara ",
+        "district":"Ate",
+        "schedule":"Martes a domingo de 10am - 9pm",
+        "description":"Dedicados a servir exquisitos pollos a la brasa y suculentas carnes parrillas.",
+        "photo":"../images/pollerias/juniors.jpg"
+       
+    },
+    {
+        "name": "norkys",
+        "type": "polleria",
+        "address":" Jn. Chamaya 926",
+        "district":"Breña",
+        "schedule":"Lunes a sábado de 11am - 6pm",
+        "description":"Un estilo propio de pollo ahumado que logrará satisfacer tu paladar, con un acogedor establecimiento.",
+        "photo":"../images/pollerias/norkys.jpg"
+       
+    },
+    {
+        "name": "pardos",
+        "type": "polleria",
+        "address":"Jr. Choquehuanca 209",
+        "district":"Chorrillos",
+        "schedule":"Martes a domingo de 11am - 5pm",
+        "description":"Un estilo propio que logrará satisfacer tu paladar, con un acogedor establecimiento.",
+        "photo":"../images/pollerias/pardos.jpg"
+       
+    },
+    {
+        "name": "pollerona",
+        "type": "polleria",
+        "address":"Av. Miguel Grau 329 - Barranco",
+        "district":"Chorrillos, Barranco, La Molina, San Borja, Callao, Lurin, Pueblo Libre",
+        "schedule":"Martes a domingo de 11am - 5pm",
+        "description":"Un estilo propio que logrará satisfacer tu paladar, con un acogedor establecimiento.",
+        "photo":"../images/pollerias/pollerona.jpg"
+       
+    },
+    {
+        "name": "roky",
+        "type": "polleria",
+        "address":"Av José Mariategui ucv 5lt Chorrillos",
+        "district":"Chorrillos, Barranco, La Molina, San Borja, Callao, Lurin, Pueblo Libre",
+        "schedule":"Martes a domingo de 11am - 5pm",
+        "description":"Un estilo propio que logrará satisfacer tu paladar, con un acogedor establecimiento.",
+        "photo":"../images/pollerias/roky.jpg"
+       
+    },
+    {
+        "name": "Atardecer",
+        "type": "criolla",
+        "address":"Av. Gambeta - Benavides",
+        "district":"Chorrillos, Barranco, La Molina, San Borja, Callao, Lurin, Pueblo Libre",
+        "schedule":"Martes a domingo de 11am - 5pm",
+        "description":"Un estilo propio que logrará satisfacer tu paladar, con un acogedor establecimiento.",
+        "photo":"../images/criollas/1.jpg"
+       
+    },
+    {
+        "name": "leña y carbon",
+        "type": "criolla",
+        "address":"Av Angamos Chorrillos",
+        "district":"Chorrillos, Barranco, La Molina",
+        "schedule":"Martes a domingo de 11am - 5pm",
+        "description":"leña y carbon Un estilo propio que logrará satisfacer tu paladar, con un acogedor establecimiento.",
+        "photo":"../images/criollas/2.jpg"
+       
+    },
+    {
+        "name": "Muralla",
+        "type": "criolla",
+        "address":"Jr. Miraflores 209",
+        "district":"Lima",
+        "schedule":"Martes a domingo de 11am - 5pm",
+        "description":"Un estilo propio que logrará satisfacer tu paladar, con un acogedor establecimiento.",
+        "photo":"../images/criollas/muralla.jpg"
+       
+    },
+    {
+        "name": "limeñita",
+        "type": "criolla",
+        "address":"Av. Javier Prado 329 - Lima",
+        "district":"Callao, Lurin, Pueblo Libre",
+        "schedule":"Martes a domingo de 11am - 5pm",
+        "description":"comida criolla que logrará satisfacer tu paladar, con un acogedor establecimiento.",
+        "photo":"../images/criollas/4.jpg"
+       
+    },
+    {
+        "name": "Criollas",
+        "type": "criolla",
+        "address":"Av José Mariategui ucv 5lt Chorrillos",
+        "district":"Barranco, Lurin, Pueblo Libre",
+        "schedule":"Martes a domingo de 11am - 5pm",
+        "description":"Un estilo propio de comidas criollas que logrará satisfacer tu paladar.",
+        "photo":"../images/criollas/5.jpg"
+       
+    }
+  
+]
